@@ -27,7 +27,6 @@ div.advices {
   align-items: center;
   justify-content: center;
   width: 550px;
-  height: 400px;
   background: var(--color-main);
   border-radius: 15px;
 }
@@ -68,6 +67,10 @@ div.oval {
 div.random {
   position: relative;
 }
+div.random:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 50px 2em var(--color-accesories);
+}
 div.cube {
   display: flex;
   justify-content: center;
@@ -83,16 +86,51 @@ div.cube {
   border-radius: 50%;
 }
 
-/* 
+@media (max-width: 375px) {
+  div.advices {
+    width: 70vw;
+  }
+  p.advice-id {
+    font-size: 12px;
+  }
+  p.advice-text {
+    font-size: 20px;
+  }
+}
 
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
+@media (max-width: 584px) {
+  div.advices {
+    width: 70vw;
+  }
+}
 
-### Neutral
+@media (max-height: 424px) {
+  div.advices {
+    width: 50vw;
+    height: 80vh;
+  }
+  p.advice-id {
+    margin: 10px;
+    font-size: 10px;
+  }
+  p.advice-text {
+    margin: 10px;
+    font-size: 20px;
+  }
+  div.accesories {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
 
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-- Dark Blue: hsl(218, 23%, 16%) */
+@media (max-height: 300px) {
+  div.accesories {
+    display: none;
+  }
+  p.advice-text {
+    font-size: 15px;
+  }
+}
 
 /* Poniższe style były domyślne */
 /* .attribution {
