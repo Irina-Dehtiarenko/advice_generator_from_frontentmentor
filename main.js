@@ -10,7 +10,9 @@ let advices = {
 const randomAdvices = () => {
   const url = `https://api.adviceslip.com/advice`;
 
-  fetch(url)
+  fetch(url, {
+    cache: "no-cache",
+  })
     .then((response) => {
       if (!response.ok) {
         throw new Error("Invalid url adress");
