@@ -86,21 +86,21 @@ div.cube {
   border-radius: 50%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 584px) {
   div.advices {
     width: 70vw;
+  }
+}
+
+@media (max-width: 375px) {
+  div.advices {
+    width: 100vw;
   }
   p.advice-id {
     font-size: 12px;
   }
   p.advice-text {
     font-size: 20px;
-  }
-}
-
-@media (max-width: 584px) {
-  div.advices {
-    width: 70vw;
   }
 }
 
@@ -131,12 +131,3 @@ div.cube {
     font-size: 15px;
   }
 }
-
-/* Poniższe style były domyślne */
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */

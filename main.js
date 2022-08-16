@@ -2,8 +2,6 @@ const divCube = document.querySelector("div.cube");
 const spanAdviceId = document.querySelector("p.advice-id span");
 const pAdviceText = document.querySelector("p.advice-text");
 
-console.log(pAdviceText);
-
 let advices = {
   advice: pAdviceText.textContent,
   idAdvice: spanAdviceId.textContent,
