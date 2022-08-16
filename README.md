@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot_desktop.JPG) - the screenshot of desktop version
-![](./images/screenshot_mobile.JPG) - the screenshot of mobile version
+![The screenshot of desktop version](./images/screenshot_desktop.JPG)
+![The screenshot of mobile version](./images/screenshot_mobile.JPG)
 
 ### Links
 
