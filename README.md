@@ -27,13 +27,18 @@ Users should be able to:
 
 ### Screenshot
 
-![The screenshot of desktop version](./images/screenshot_desktop.JPG)
-![The screenshot of mobile version](./images/screenshot_mobile.JPG)
+The screenshot of desktop version:
+
+![](./images/screenshot_desktop.JPG)
+
+The screenshot of mobile version:
+
+![](./images/screenshot_mobile.JPG)
 
 ### Links
 
-- Solution URL: [](https://github.com/Irina-Dehtiarenko/advice_generator_from_frontentmentor)
-- Live Site URL: [](https://irina-dehtiarenko.github.io/advice_generator_from_frontentmentor/)
+- Solution URL: [Git Hub Solution](https://github.com/Irina-Dehtiarenko/advice_generator_from_frontentmentor)
+- Live Site URL: [Preview of the website](https://irina-dehtiarenko.github.io/advice_generator_from_frontentmentor/)
 
 ### Built with
 
